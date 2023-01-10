@@ -1,0 +1,126 @@
+.story{
+    flex-wrap: wrap;
+    display: flex;
+    width: 100%;
+    height: 1400px;
+    border: 1px solid;
+    &_top{
+        display: flex;
+        width: 100%;
+        height: 70%;
+        // border: 1px solid;
+        &_text{
+            width: 50%;
+            height: 100%;
+            .stext-box{
+                text-align: center;
+                margin-left: 140px;
+                margin-top: 400px;
+                width: 444px;
+                height: 422px;
+                h2{
+                    font-size: 54px;
+                }
+                p{
+                    font-size: 19px;
+                }
+                h3{
+                    font-size: 40px
+                }
+            }
+        }
+        &_img{
+            width: 50%;
+            height: 100%;
+            img{
+                margin-top: 380px;
+            }
+        }
+    }
+    &_button{
+        background-image: url(../../images/info\ bg.png);
+        display: flex;
+        width: 100%;
+        height: 30%;
+        // border: 1px solid;
+        &_buy{
+            padding-top: 150px;
+            padding-left: 100px;
+            width: 100%;
+            height: 100%;
+            h2{
+                font-size: 42px;
+                font-weight: 350;
+            }
+            h4{
+                font-size: 24px
+            }
+            .btn2{
+                margin-left: 900px;
+                color: white;
+                width: 157px;
+                height: 47px;
+                background-color: #FF7400;
+            }
+        }
+    }
+}
+@media only screen and (max-width:320px){
+    .untitled{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        .story{
+            height: 1200px;
+            width: 100%;
+            &_top{
+                width: 100%;
+                flex-direction: column;
+                &_text{
+                    width: 100%;
+                    .stext-box{
+                        height: 500px;
+                        width: 100%;
+                        margin: 0;
+                        padding: 0;
+                        h2{
+                            font-size: 34px;
+                            width: 100%;
+                        }
+                        
+                    }
+                }
+                &_img{
+                    padding-top: 40px;
+                    width: 100%;
+                    img{
+                        width: 100%;
+                        margin: 0;
+                        padding: 0;
+                    }
+                }
+            }
+            &_button{
+                width: 100%;
+                flex-direction: column;
+                &_buy{
+                    text-align: center;
+                    margin: 0;
+                    padding: 0;
+                    width: 100%;
+                    h2{
+                        margin: 0;
+                        padding: 0;
+                        width: 100%;
+                    }
+                }
+                .btn2{
+                    padding: 0;
+                    margin: 0;
+                }
+            }
+        }
+    }
+}
+
+

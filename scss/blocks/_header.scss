@@ -1,0 +1,143 @@
+.untitled{
+    background-color: white;
+    width: 1440px;
+    margin: 0 auto;
+    .header{
+        background-image: url(./../../images/hero\ image.png);
+        width: 100%;
+        height: 800px;
+        &_nav{
+            display: flex;
+            width: 100%;
+            height: 20%;
+            &_logo{
+                justify-content: center;
+                align-items: center;
+                display: flex;
+                width: 30%;
+                height: 100%;
+            }
+            &_list{
+                justify-content: space-evenly;
+                color: white;
+                align-items: center;
+                display: flex;
+                width: 70%;
+                height: 100%;
+                a{
+                    color: white;
+                }
+                .btn1{
+                    width: 157px;
+                    height: 47px;
+                    background-color: #FF7400;
+                    color: white;
+                }
+                .nav-list{
+                    display: flex;
+                    color: white;
+                    font-weight: 150;
+                    li{
+                        margin-left: 50px;
+                    }
+                }
+            }
+            .menu{
+                display: none;
+            }
+        }
+        .hero{
+            width: 100%;
+            height: 80%;
+            &_text{
+                width: 100%;
+                height: 100%;
+                .h-text{
+                    margin-left: 130px;
+                    margin-top: 150px;
+                    text-align: center;
+                    color:#D67E35;
+                    width: 570px;
+                    height: 180px;
+                    h2{
+                        font-size: 50px;
+                    }
+                    h1{
+                        font-size: 80px;
+                    }
+                    p{
+                        margin-top: 15px;
+                        color: white;
+                        font-size: 18px;
+                    }
+                }
+                .btn2{
+                    margin-top: 20px;
+                    margin-left: 345px;
+                    width: 137px;
+                    height: 47px;
+                    color: white;
+                    background-color:#FF7400;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+@media only screen and (max-width:320px){
+    .untitled{
+        width: 100%;
+        .header{
+            width: 100%;
+            &_nav{
+                width: 100%;
+                &_logo{
+                    width: 50%;
+                }
+                &_list{
+                    display: none;
+                }
+                .menu{
+                    margin-left: 70px   ;
+                    margin-top: 70px;
+                    display: block;
+                }
+            }
+            .hero{
+                text-align: center;
+                width: 100%;
+                &_text{
+                    padding-top: 300px;
+                    width: 100%;
+                    .btn2{
+                        width: 120px;
+                        height: 47px;
+                        padding: 0;
+                        margin: 0;
+                    }
+                    .h-text{
+                        padding: 0;
+                        margin: 0;
+                        width: 100%;
+                        h2{
+                            font-size: 20px;
+                            width: 100%;
+                        }
+                        h1{
+                            font-size: 40px;
+                            width: 100%;
+                        }
+                        p{
+                            font-size: 15px;
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+

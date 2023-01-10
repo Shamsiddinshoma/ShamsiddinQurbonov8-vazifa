@@ -1,0 +1,17 @@
+*{
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media only screen and (max-width:320px){
+    .untitled{
+        width: 100%;
+        main{
+            width: 100%;
+        }
+    }
+}
+

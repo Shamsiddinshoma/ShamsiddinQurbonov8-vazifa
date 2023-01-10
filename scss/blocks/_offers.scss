@@ -1,0 +1,79 @@
+.offers{
+    margin-top: 100px;
+    margin-left: 165px;
+    width: 1130px;
+    height: 700px;
+    &_text{
+        width: 100%;
+        height: 30%;
+        h2{
+            text-align: center;
+            font-size: 54px;
+            font-weight: 400;
+        }
+    }
+    &_product{
+        display: flex;
+        width: 100%;
+        height: 70%;
+        .g-product{
+            width: 450px;
+            height: 485px;
+        }
+        .m-product{
+            margin-left: 30px;
+            width: 160px;
+            height: 485px;
+            img{
+                margin-bottom: 10px;
+                margin-top: 10px
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:320px){
+    .untitled{
+        width: 100%;
+        .offers{
+            margin: 0;
+            width: 100%;
+            &_text{
+                align-items: center;
+                display: flex;
+                width: 100%;
+            }
+            &_product{
+                flex-direction: column;
+                width: 100%;
+                .g-product{
+                    width: 100%;
+                    img{
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}
